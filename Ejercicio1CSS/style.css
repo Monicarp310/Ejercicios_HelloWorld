@@ -1,0 +1,128 @@
+
+*h1{
+    color: red 
+}
+
+.h2{
+    color: green
+}
+
+h3{
+    color: blue
+}
+
+/*Ejercicio 2*/
+
+.static{
+    position: static;
+    width: 80px;
+    height: 80px;
+    background: blue;
+  }
+
+.relative{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 80px;
+    height: 80px;
+    background: green;
+
+  } 
+  
+.absolute{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 80px;
+    height: 80px;
+    background: rgb(245, 108, 108);
+  }
+
+.fixed  {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    width: 80px;
+    height: 80px;
+    background: rgb(250, 250, 41);
+  }
+
+.sticky{
+    position: sticky;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    background: rgb(233, 44, 233);
+  }
+
+/*Ejercicio 3*/
+.box {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap; /*flex-wrap: nowrap*/
+}
+
+.caja1{
+    width: 200px;
+    height: 200px;
+    background: greenyellow;
+}
+
+.caja2{
+    width: 200px;
+    height: 200px;
+    background: blueviolet;
+}
+
+.caja3{
+    width: 200px;
+    height: 200px;
+    background: aqua;
+}
+
+.caja4{
+    width: 200px;
+    height: 200px;
+    background: blueviolet;
+}
+
+.caja5{
+    width: 200px;
+    height: 200px;
+    background: aqua;
+}
+
+.caja6{
+    width: 200px;
+    height: 200px;
+    background: greenyellow;
+}
+
+/*Ejercicio 4*/
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    background: whitesmoke;
+    border-color:black;
+    border-style: ridge;
+    border-radius: 5px;
+}
+
+.boton{
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.linea{
+    border-bottom:solid 1px grey;
+    width:100%;
+    height:25px; 
+}
