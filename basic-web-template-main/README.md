@@ -1,3 +1,0 @@
-# basic-web-template
-
-Ejercicio
